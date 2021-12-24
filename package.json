@@ -1,0 +1,33 @@
+{
+    "name": "project-books-management",
+    "version": "1.0.0",
+    "description": "In this project we have created APIs for Users Sign Up and Login, Then users can create, fetch, update & delete Books and then Finally Anyone can add reviews for books",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shatrudhan1512/Project-Books-Management.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/shatrudhan1512/Project-Books-Management/issues"
+    },
+    "homepage": "https://github.com/shatrudhan1512/Project-Books-Management#readme",
+    "dependencies": {
+        "aws-sdk": "^2.1048.0",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "email-validator": "^2.0.4",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.1",
+        "mongoose": "^6.1.2",
+        "multer": "^1.4.4",
+        "nodemon": "^2.0.15",
+        "validate-date": "^2.0.0"
+    }
+}
